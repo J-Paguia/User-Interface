@@ -69,7 +69,14 @@ h1, h2, h3, h4, h5 {
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
-	border: 1px solid yellow;
+
+
+}
+
+body	{
+	margin: 0 auto;
+	width: 900px;
+	
 }
 
 a	{
@@ -77,33 +84,103 @@ a	{
 }
 
 header	{
-	border: 1px solid red;
+	margin-top: 30px;
+	margin-bottom: 60px;
 }
 
+
+
 nav	{
-	border: 1px solid green;
+	
 	display: inline-block;
+	width: 79%;
 	
 }
 
 nav a	{
-	border: 1px solid orange;
-	width: 50%;
 
+	padding: 0 8% 0 0;
+	color: #AAAAAA;
+	font-weight: bold;
+	
+	
 	
 
 }
 
 img.logo	{
 	display: inline-block;
-	border: 1px solid red;
+	
+	vertical-align: middle;
 	
 }
 
-.sub-header		{
-	border: 1px solid blue;
+.mid	{
+	margin-bottom: 60px;
 }
 
-.sub-header h1		{
-	border: 1px solid green;
+
+.sub-header		{
+	width: 52%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
 }
+
+hr	{
+	margin-bottom: 30px;
+}
+
+
+.sub-header h1		{
+	
+	font-size: 90px;
+	
+	
+	
+}
+
+.sub-header a	{
+	border: 1px solid #999999;
+	font-size: 20px;
+	padding: 0 40px;
+	
+}
+
+.code-snippet	{
+	display: inline-block;
+	
+	vertical-align: middle;
+	width: 47%;	
+	
+}
+
+.features, .about		{
+	width: 49%;
+	display: inline-block;
+}
+
+.middle-img		{
+	width: 900px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.services, .product, .vision	{
+		width: 32%;
+		display: inline-block;
+		margin-bottom: 30px;;
+}
+
+.product, .vision {
+	margin-left: 5px;
+}
+
+footer	{
+	margin-bottom: 90px;
+}
+
+footer p	{
+	text-align: center;
+}
+
